@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import NavBar from "./modules/layout/navbar/NavBar";
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import store from "./store/store";
-import ContactDashboard from "./modules/contact/pages/dashboard/ContactDashboard";
 import AdminContact from "./modules/contact/pages/admin/AdminContact";
 import AddContact from "./modules/contact/pages/add-contact/AddContact";
 import ViewContact from "./modules/contact/pages/view-contact/ViewContact";
